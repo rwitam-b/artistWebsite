@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "28DaysLater";
+    src: url("28 Days Later.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GreatDay";
+    src: url("Great Day.ttf") format("truetype");
+}
+
+.heading {
+    font-family: "GreatDay";
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+header {
+    position: relative;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.greet {
+    position: absolute;
+    top: 40%;
+    margin-top: -142px;
+    left: 50%;
+    margin-left: -181px;
+    -webkit-filter: drop-shadow(5px 5px 5px hsl(0, 100%, 0%));
+    filter: drop-shadow(5px 5px 5px hsl(0, 100%, 0%));
+}
+
+#story {
+    position:relative;
+    background-color: black;
+}
+
+.text{
+  color:white;
+  font-family: Calibri;
+  font-size:17px;
+}
+
+#work{
+  background-color: black;
+  background-image: url("../images/soundcloud2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
