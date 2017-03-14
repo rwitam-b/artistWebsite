@@ -1,3 +1,13 @@
+html, body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+@font-face {
+    font-family: "Aller";
+    src: url("Aller_LtIt.ttf") format("truetype");
+}
+
 @font-face {
     font-family: "28DaysLater";
     src: url("28 Days Later.ttf") format("truetype");
@@ -8,22 +18,12 @@
     src: url("Great Day.ttf") format("truetype");
 }
 
-.heading {
-    font-family: "GreatDay";
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    font-size: 40px;
-}
-
 header {
     position: relative;
-    background-image: url("../images/header.jpg");
+    background: url("../images/header.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+    width: 100vw;
     height: 700px;
-    background-position: top center;
-    background-attachment: fixed;
     overflow: hidden;
 }
 
@@ -32,26 +32,40 @@ header {
     top: 40%;
     margin-top: -142px;
     left: 50%;
-    margin-left: -181px;
+    margin-left: -56px;
     -webkit-filter: drop-shadow(5px 5px 5px hsl(0, 100%, 0%));
     filter: drop-shadow(5px 5px 5px hsl(0, 100%, 0%));
 }
 
 #story {
-    position:relative;
+    position: relative;
     background-color: black;
 }
 
-.text{
-  color:white;
-  font-family: Calibri;
-  font-size:17px;
+.heading {
+    font-family: "GreatDay";
+    font-weight: bold;
+    color: white;
 }
 
-#work{
-  background-color: black;
-  background-image: url("../images/soundcloud2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+@media (min-width: 768px) {
+    .row.vertical-align {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.text {
+    color: white;
+    font-family: "Aller";
+    font-size: 19px;
+    text-align: justify;
+}
+
+#work {
+    background-color: black;
+    background-image: url("../images/soundcloud2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
