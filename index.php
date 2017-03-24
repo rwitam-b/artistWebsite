@@ -76,6 +76,8 @@
           <div class="col-xs-6">
             <img src="images/twitter.png">
           </div>
+        </div><br><br>
+        <div class="row">
           <div class="col-xs-12">
             <img src="images/soundcloud.png">
           </div>
