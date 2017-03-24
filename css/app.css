@@ -4,18 +4,13 @@ html, body {
 }
 
 @font-face {
-    font-family: "Aller";
-    src: url("Aller_LtIt.ttf") format("truetype");
+    font-family: "FuturaPTLight";
+    src: url("FuturaPTLight.otf") format("opentype");
 }
 
 @font-face {
     font-family: "28DaysLater";
     src: url("28 Days Later.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "GreatDay";
-    src: url("Great Day.ttf") format("truetype");
 }
 
 header {
@@ -42,10 +37,14 @@ header {
     background-color: black;
 }
 
-.heading {
-    font-family: "GreatDay";
-    font-weight: bold;
+.lightHeading {
+    font-family: "28DaysLater";
     color: white;
+}
+
+.darkHeading{
+  font-family: "28DaysLater";
+  color: black;
 }
 
 @media (min-width: 768px) {
@@ -57,7 +56,7 @@ header {
 
 .text {
     color: white;
-    font-family: "Aller";
+    font-family: "FuturaPTLight";
     font-size: 19px;
     text-align: justify;
 }
@@ -68,4 +67,93 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#story div{
+  opacity : 0;
+  transition: opacity 0.3s ease-out;
+}
+
+nav {
+    background-color: #fff;
+    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #d6d6d6;
+    font-family: "FuturaPTLight";
+}
+
+.navbar-default .navbar-brand {
+    color: #000000;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: indianred;
+}
+
+.navbar-default .navbar-text {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: indianred;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #d6d6d6;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #d6d6d6;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #000000;
+}
+
+.navbar-default .navbar-link {
+    color: #000000;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #f66709;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #000000;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #f66709;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+        color: #f66709;
+        background-color: #d6d6d6;
+    }
 }
