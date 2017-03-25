@@ -67,23 +67,23 @@
           <hr><h1 class="darkHeading">Social Media</h1><hr>
           <div class="row">
             <div class="col-xs-6">
-              <img src="images/youtube.png">
+              <a href="http://www.youtube.com" ><img class="fa" src="images/youtube.png"></a>
             </div>
             <div class="col-xs-6">
-              <img src="images/instagram.png">
+              <a href="http://www.instagram.com" ><img class="fa" src="images/instagram.png"></a>
             </div>
           </div><br><br>
           <div class="row">
             <div class="col-xs-6">
-              <img src="images/facebook.png">
+              <a href="http://www.facebook.com" ><img class="fa" src="images/facebook.png"></a>
             </div>
             <div class="col-xs-6">
-              <img src="images/twitter.png">
+              <a href="http://www.twitter.com" ><img class="fa" src="images/twitter.png"></a>
             </div>
           </div><br><br>
           <div class="row">
             <div class="col-xs-12">
-              <img src="images/soundcloud.png">
+              <a href="http://www.soundcloud.com" ><img class="fa" src="images/soundcloud.png"></a>
             </div>
           </div>
         </div>

@@ -1,95 +1,3 @@
-html, body {
-    overflow-x: hidden;
-    position: relative;
-    background-color: rgb(22, 16, 16);
-}
-
-#loader {
-    position: relative;
-    background-color: inherit;
-    overflow: hidden;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-
-#myDiv {
-    display: none;
-    text-align: center;
-}
-
-@font-face {
-    font-family: "FuturaPTLight";
-    src: url("FuturaPTLight.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "28DaysLater";
-    src: url("28 Days Later.ttf") format("truetype");
-}
-
-header {
-    position: relative;
-    background: url("../images/header.jpg") no-repeat center center fixed;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.greet {
-    position: absolute;
-    top: 40%;
-    margin-top: -142px;
-    left: 50%;
-    margin-left: -56px;
-    -webkit-filter: drop-shadow(5px 5px 5px hsl(0, 100%, 0%));
-    filter: drop-shadow(5px 5px 5px hsl(0, 100%, 0%));
-}
-
-#story {
-    position: relative;
-    background-color: black;
-}
-
-.lightHeading {
-    font-family: "28DaysLater";
-    color: white;
-}
-
-.darkHeading {
-    font-family: "28DaysLater";
-    color: black;
-}
-
-@media (min-width: 768px) {
-    .row.vertical-align {
-        display: flex;
-        align-items: center;
-    }
-}
-
-.text {
-    color: white;
-    font-family: "FuturaPTLight";
-    font-size: 19px;
-    text-align: justify;
-}
-
-#work {
-    background-color: black;
-    background-image: url("../images/soundcloud2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#story div {
-    opacity: 0;
-    transition: opacity 0.3s ease-out;
-}
-
 nav {
     background-color: #fff;
     background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
@@ -174,6 +82,109 @@ nav {
     }
 }
 
-#social{
-  background-color: white;
+@font-face {
+    font-family: "FuturaPTLight";
+    src: url("FuturaPTLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "28DaysLater";
+    src: url("28 Days Later.ttf") format("truetype");
+}
+
+html, body {
+    overflow-x: hidden;
+    position: relative;
+    background-color: rgb(22, 16, 16);
+}
+
+#loader {
+    position: relative;
+    background-color: inherit;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: relative;
+    background: url("../images/header.jpg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.greet {
+    position: absolute;
+    top: 40%;
+    margin-top: -142px;
+    left: 50%;
+    margin-left: -56px;
+    -webkit-filter: drop-shadow(5px 5px 5px hsl(0, 100%, 0%));
+    filter: drop-shadow(5px 5px 5px hsl(0, 100%, 0%));
+}
+
+#story {
+    position: relative;
+    background-color: black;
+}
+
+.lightHeading {
+    font-family: "28DaysLater";
+    color: white;
+}
+
+.darkHeading {
+    font-family: "28DaysLater";
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .row.vertical-align {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.text {
+    color: white;
+    font-family: "FuturaPTLight";
+    font-size: 19px;
+    text-align: justify;
+}
+
+#work {
+    background-color: black;
+    background-image: url("../images/soundcloud2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#story div {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+#social {
+    background-color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+#social img{
+  opacity:0;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-100px);
+}
+
+#social img.showing{
+  opacity:1;
+  transform: translateX(0px);
 }

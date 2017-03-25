@@ -1,5 +1,5 @@
 $(window).load(function() {
-    $("#loader").fadeOut(5000, function() {
+    $("#loader").fadeOut(100, function() {
         $("#content").fadeIn("slow");
     });
 });
@@ -38,4 +38,16 @@ $(window).scroll(function() {
 
     // Story Section Fading
     $("#story div").css("opacity", Math.round((parseFloat(val) / (0.8 * $("#story").offset().top)) * 100) / 100);
+
+    // Social Media Icon Dance
+    if ( ( $(window).scrollTop() >= ( 0.75 * $("#social").offset().top ) ) &&
+    ( $(window).scrollTop() <= ( $("#social").offset().top + $("#social").height() ) ) ) {
+        $("#social img").each(function(i) {
+            setTimeout(function() {
+                $("#social img").eq(i).addClass("showing");
+            }, 150 * (i + 1));
+        });
+    } else {
+        $("#social img").removeClass("showing");
+    }
 });
