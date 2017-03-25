@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).ready(function() {
     $("#loader").fadeOut(5000, function() {
         $("#content").fadeIn("slow");
     });
