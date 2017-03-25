@@ -34,8 +34,8 @@
               <div class="collapse navbar-collapse" id="myNavbar">
                   <ul class="nav navbar-nav navbar-right text-center">
                       <li><a href="#story">My Story</a></li>
+                      <li><a href="#work">Latest Work</a></li>
                       <li><a href="#social">Social Media</a></li>
-                      <li><a href="#">Page 3</a></li>
                   </ul>
               </div>
           </div>
@@ -62,30 +62,40 @@
               </div>
           </div>
       </section>
-      <section id="social">
-        <div class="container text-center"><br><br>
-          <hr><h1 class="darkHeading">Social Media</h1><hr>
-          <div class="row">
-            <div class="col-xs-6">
-              <a href="http://www.youtube.com" ><img class="fa" src="images/youtube.png"></a>
-            </div>
-            <div class="col-xs-6">
-              <a href="http://www.instagram.com" ><img class="fa" src="images/instagram.png"></a>
-            </div>
-          </div><br><br>
-          <div class="row">
-            <div class="col-xs-6">
-              <a href="http://www.facebook.com" ><img class="fa" src="images/facebook.png"></a>
-            </div>
-            <div class="col-xs-6">
-              <a href="http://www.twitter.com" ><img class="fa" src="images/twitter.png"></a>
-            </div>
-          </div><br><br>
-          <div class="row">
-            <div class="col-xs-12">
-              <a href="http://www.soundcloud.com" ><img class="fa" src="images/soundcloud.png"></a>
+      <section id="work">
+        <div class="container-fluid text-center"><br><br>
+          <hr><h1 class="lightHeading">Latest Beats</h1><hr>
+          <div class="container">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="..."></iframe>
             </div>
           </div>
+        </div>
+      </section>
+      <section id="social">
+        <div class="container text-center"><br><br>
+          <hr><h1 class="lightHeading">Contact Me</h1><hr>
+          <div class="row">
+            <div class="col-xs-12">
+              <a href="mailto:mmulabeats@gmail.com" class="email">MMULABEATS@GMAIL.COM</a>
+            </div>
+          </div><br><br>
+          <div class="row">
+            <div class="col-xs-6">
+              <a href="https://www.youtube.com/channel/UC4qJsy8IrqSCJ2vsE5Q1Exg" class="fa"><img src="images/youtube.png"></a>
+            </div>
+            <div class="col-xs-6">
+              <a href="https://www.instagram.com/1mitchmula" class="fa"><img src="images/instagram.png"></a>
+            </div>
+          </div><br><br>
+          <div class="row">
+            <div class="col-xs-6">
+              <a href="https://www.facebook.com/ProdByMitchMula" class="fa"><img src="images/facebook.png"></a>
+            </div>
+            <div class="col-xs-6">
+              <a href="https://twitter.com/1mitchmula" class="fa"><img src="images/twitter.png"></a>
+            </div>
+          </div><br><br>
         </div>
       </section>
       <div style="height:4000px;background-color:gainsboro;"></div>

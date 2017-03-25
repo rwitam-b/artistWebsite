@@ -157,11 +157,8 @@ header {
 }
 
 #work {
-    background-color: black;
-    background-image: url("../images/soundcloud2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    position: relative;
+    background-color: rgb(32,16,16);
 }
 
 #story div {
@@ -170,7 +167,11 @@ header {
 }
 
 #social {
-    background-color: white;
+    background-color: rgb(245, 255, 250);
+    background-image: url("../images/socialMedia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .fa:hover {
@@ -187,4 +188,18 @@ header {
 #social img.showing{
   opacity:1;
   transform: translateX(0px);
+}
+
+.email{
+  border: 3px grey solid;
+  font-family: "FuturaPTLight";
+  transition: all 0.8s;
+  color:white;
+  font-size: 25px;
+}
+
+.email:hover{
+  border: 1px red solid;
+  background-color: white;
+  color:rgb(64,0,0);
 }
