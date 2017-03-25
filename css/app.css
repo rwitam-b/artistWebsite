@@ -1,6 +1,22 @@
 html, body {
     overflow-x: hidden;
     position: relative;
+    background-color: rgb(22, 16, 16);
+}
+
+#loader {
+    position: relative;
+    background-color: inherit;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#myDiv {
+    display: none;
+    text-align: center;
 }
 
 @font-face {
@@ -42,9 +58,9 @@ header {
     color: white;
 }
 
-.darkHeading{
-  font-family: "28DaysLater";
-  color: black;
+.darkHeading {
+    font-family: "28DaysLater";
+    color: black;
 }
 
 @media (min-width: 768px) {
@@ -69,9 +85,9 @@ header {
     background-position: center;
 }
 
-#story div{
-  opacity : 0;
-  transition: opacity 0.3s ease-out;
+#story div {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
 }
 
 nav {
@@ -156,4 +172,8 @@ nav {
         color: #f66709;
         background-color: #d6d6d6;
     }
+}
+
+#social{
+  background-color: white;
 }

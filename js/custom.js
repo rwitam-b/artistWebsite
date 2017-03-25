@@ -1,3 +1,9 @@
+$(document).ready(function() {
+    $("#loader").fadeOut(5000, function() {
+        $("#content").fadeIn("slow");
+    });
+});
+
 // Navbar Link Clik Smooth Scroll
 function setup() {
     $("nav a").on('click', function(event) {
@@ -31,5 +37,5 @@ $(window).scroll(function() {
     });
 
     // Story Section Fading
-    $("#story div").css("opacity",Math.round((parseFloat(val)/(0.8*$("#story").offset().top))*100)/100);
+    $("#story div").css("opacity", Math.round((parseFloat(val) / (0.8 * $("#story").offset().top)) * 100) / 100);
 });
