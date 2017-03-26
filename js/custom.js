@@ -1,5 +1,6 @@
+// Loading Screen
 $(window).load(function() {
-    $("#loader").fadeOut(5000, function() {
+    $("#loader").fadeOut(2000, function() {
         $("#content").fadeIn("slow");
     });
 });
@@ -19,11 +20,12 @@ function setup() {
     });
 }
 
+// Scroll Animations
 $(window).scroll(function() {
     var val = $(this).scrollTop();
 
     // Navbar Fade
-    if ($(window).scrollTop() > 0.5 * $(window).height()) {
+    if ($(window).scrollTop() > 0.4 * $(window).height()) {
         $("nav").fadeIn("slow");
     } else {
         $("nav").fadeOut("slow");
@@ -40,8 +42,7 @@ $(window).scroll(function() {
     $("#story div").css("opacity", Math.round((parseFloat(val) / (0.8 * $("#story").offset().top)) * 100) / 100);
 
     // Social Media Icon Dance
-    if ( ( $(window).scrollTop() >= ( 0.75 * $("#social").offset().top ) ) &&
-    ( $(window).scrollTop() <= ( $("#social").offset().top + $("#social").height() ) ) ) {
+    if ( (val >= ($("#social").offset().top - $(window).height() / 3) ) && (val <= ($("#social").offset().top + $("#social").height()) ) ) {
         $("#social img").each(function(i) {
             setTimeout(function() {
                 $("#social img").eq(i).addClass("showing");

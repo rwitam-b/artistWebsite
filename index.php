@@ -63,12 +63,13 @@
           </div>
       </section>
       <section id="work">
-        <div class="container-fluid text-center"><br><br>
+        <div class="container-fluid text-center" style="background: linear-gradient(rgba(50,10,10,0.5),rgba(0,0,0,0.68));"><br><br>
           <hr><h1 class="lightHeading">Latest Beats</h1><hr>
           <div class="container">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="..."></iframe>
+              <iframe class="embed-responsive-item" width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/31383641&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=true"></iframe>
             </div>
+            <br><br><br><br>
           </div>
         </div>
       </section>
@@ -98,7 +99,10 @@
           </div><br><br>
         </div>
       </section>
-      <div style="height:4000px;background-color:gainsboro;"></div>
+      <!-- <div style="height:4000px;background-color:gainsboro;"></div> -->
+      <footer class="text-center">
+        All Rights Reserved
+      </footer>
     </div>
 </body>
 
