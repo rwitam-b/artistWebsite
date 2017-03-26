@@ -206,10 +206,10 @@ header {
 }
 
 #work {
-    background-color: black;
-    background-attachment: fixed;
+    background-color: black;    
     background-image: url("../images/work.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-attachment: fixed;
 }
