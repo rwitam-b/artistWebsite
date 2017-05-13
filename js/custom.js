@@ -1,6 +1,6 @@
 // Loading Screen
 $(window).load(function() {
-    $("#loader").fadeOut(2000, function() {
+    $("#loader").fadeOut(3000, function() {
         $("#content").fadeIn("slow");
     });
 });
