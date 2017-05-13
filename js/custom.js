@@ -1,7 +1,9 @@
 // Loading Screen
 $(window).load(function() {
     $("#loader").fadeOut(3000, function() {
-        $("#content").fadeIn("slow");
+        $("#content").fadeIn("slow",function(){
+            new CBPGridGallery(document.getElementById('grid-gallery'));
+        });
     });
 });
 

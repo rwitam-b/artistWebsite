@@ -84,12 +84,12 @@ nav {
 
 @font-face {
     font-family: "FuturaPTLight";
-    src: url("FuturaPTLight.otf") format("opentype");
+    src: url("../fonts/FuturaPTLight.otf") format("opentype");
 }
 
 @font-face {
     font-family: "28DaysLater";
-    src: url("28 Days Later.ttf") format("truetype");
+    src: url("../fonts/28 Days Later.ttf") format("truetype");
 }
 
 html, body {
@@ -272,5 +272,14 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-attachment: fixed;
+}
+
+#gallery{
+    position:relative;
+    background-image: url("../images/gallery-back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
     background-attachment: fixed;
 }
