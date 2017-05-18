@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/demo.css" />
     <link rel="stylesheet" href="css/component.css" />
     <script src="js/modernizr.custom.js"></script>
-    <script src="js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/custom.js"></script>
     <script>
@@ -64,8 +64,7 @@
                 <h1 class="lightHeading">Latest Music</h1>
                 <hr>
                 <div class="container">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/31383641&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=true"></iframe>
+                    <div class="embed-responsive embed-responsive-16by9" id="soundcloud">
                     </div>
                     <br>
                     <br>
@@ -207,7 +206,7 @@
                 <br>
                 <br>
                 <hr>
-                <h1 class="lightHeading">Contact Me</h1>
+                <h1 class="lightHeading">Social Media</h1>
                 <hr>
                 <div class="row">
                     <div class="col-xs-12"> <a href="mailto:mitchmula.beats@gmail.com" class="email">MITCHMULA.BEATS@GMAIL.COM</a> </div>
@@ -226,7 +225,7 @@
                 <br>
                 <div class="row">
                     <div class="col-xs-6">
-                        <a target="_blank" href="https://www.facebook.com/ProdByMitchMula" class="fa"><img src="images/facebook.png"></a>
+                        <a target="_blank" href="https://www.facebook.com/1MitchMula" class="fa"><img src="images/facebook.png"></a>
                     </div>
                     <div class="col-xs-6">
                         <a target="_blank" href="https://twitter.com/1mitchmula" class="fa"><img src="images/twitter.png"></a>
